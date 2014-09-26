@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background-color: rgba(0,0,0,.5);
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  padding: 5% 0% 3% 10%;
+}
+
+.main {
+}
+
+article {
+  background-color: red;
+  display: inline-block;
+  float: left;
+  width: 60%;
+}
+
+aside {
+  background-color: blue;
+  display: inline-block;
+  float: left;
+  width: 40%;
+}
+
+@media screen and (max-width: 40em) {
+  aside {
+    width: 100%;
+  }
+  article {
+    width: 100%;
+  }
+}
+
+footer p {
+  clear: both;
+  text-align: center;
+}
